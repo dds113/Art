@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+
+.main-nav li a:hover
+{
+    	color:orange;
+        transition: 1s;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic/pic5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1
+{
+    width: 200px;
+    background: linear-gradient(to right, #cc1573, #5722a9);;
+    padding-bottom: 8px;
+    padding-top: .4%;
+    padding-left: 4px;
+    padding-right:4px;
+    border: 0px;
+    margin: 0;   
+    color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.p
+{
+  color: whitesmoke;
+    text-align: center;
+    align-content: center;
+    padding-top: 100px;
+    padding-left: 42%;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+
+.images 
+{
+        padding-left: auto;
+        padding-top: 100px;
+        border-image: url(images/pic1-small.jpg);
+        border-color: white;
+}
+
+.images img
+{
+   
+    transition: 1s;
+}
+.images img:hover
+{
+    transform: scale(1.1);
+}
+
+#container
+{
+    min-height:50;
+}
+
+
+.footer {
+   padding-top: 5%;
+    padding-bottom: 5%;
+  background-image:url(pic/pic5.jpg);
+  text-transform: capitalize;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+    padding-right: 84%;
+}
+
+.logo
+{
+    float: right;
+    list-style: none;
+    margin-right: 80px;
+}
+.logo li
+{
+    display: inline-block;
+   
+}
+.logo i
+{
+     transition: 1s;
+}
+.logo li a
+{
+    color: white;               
+    text-decoration: none;
+
+}
+.logo i:hover
+{
+    transform: scale(1.7);
+}
+
+.logo li a:hover
+{
+    	color:	#3f729b;
+}
+
+
